@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IDEA·LAB</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <script src="https://kit.fontawesome.com/3fd75027e6.js" crossorigin="anonymous"></script>
+  <style>
+    ul,
+    li {
+        list-style-type:none;
+        padding:0;
+        margin:0;
+    }
+    body{
+        font-family:Lato;
+        margin:0;
+        background-image:linear-gradient(to bottom right,rgb(249, 207, 214),rgb(160, 185, 253))
+    }
+    a{
+        text-decoration:none;
+    }
+    .header{
+      background-color:rgba(240, 248, 255, 0.569);
+      text-align:center;
+      padding:80px;
+    }
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 48
+    }
+    .topnav{
+        width:100%;
+        height:80px;
+        overflow:scroll;
+    }
+    .container{
+        width:1200px;
+        height:100%;
+        margin:auto;
+    }
+    .nav{
+      display:flex;
+      justify-content:space-between;
+    }
+    .nav>li{
+      height:80px;
+      line-height:80px;
+      padding:0 50px;
+    }
+    .nav>li:hover{
+      background-color: rgba(153, 204, 255, 0.61);
+      color:white;
+    }
+    .banner{
+      width:100%;
+      height:720px;
+    }
+    .banner img{
+      width:100%;
+      height:100%;
+    }
+    .recent{
+      width:100%;
+      height:400px;
+      margin-top:30px;
+    }
+    .title{
+      font-size:36px;
+      font-weight:500;
+      color:aquamarine;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .recent .box{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+    .recent .box>img{
+      display:block;
+      width:25%;
+    }
+    .recent .box>.text{
+      display:block;
+      width:60%;
+    }
+    div.text{
+      max-width:600px;
+      margin:auto;
+    }
+    .recent .box p{
+      padding:20px;
+      outline:rgba(249, 190, 190, 0.751) solid 5px;
+      margin:auto;
+      text-align:justify;
+    }
+    p.groove{
+      outline-style: groove;
+    }
+    .video{
+      width:100%;
+    }
+    .video .title{
+      margin-top:0px;
+      margin-left:55px;
+      padding:20px;
+    }
+    .video .list{
+      width:100%;
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:space-between;
+      align-items:center;
+    }
+    .video .list>li{
+      width:50%;
+      height:300px;
+    }
+    .video .list h2{
+      outline-style:hidden;
+      padding:20px;
+      text-align:center;
+      background:rgba(100, 148, 237, 0.736);
+      color:azure;
+      width:50%;
+      margin-left:120px;
+      align-items:center;
+    }
+    p.italic{
+      font-style:italic;
+    }
+    .footer{
+      padding:80px;
+      text-align:center;
+      background-color:rgba(247, 247, 206, 0.656); 
+      margin-top:60px;     
+    }
+  </style>
+</head>
+  <body>
+  <div class="header">
+    <h1>IDEALAB</h1>
+    <span class="material-symbols-outlined">
+      air_freshener
+    </span>
+    <p>Welcome to Camelia's never-ending piece.</p>
+  </div>
+  <div class="topnav">
+      <ul class="container nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="asm2.html">Assignment 02</a></li>
+          <li><a href="#">Assignment 03</a></li>
+          <li><a href="#">Assignment 04</a></li>
+          <li><a href="#">Assignment 05</a></li>   
+      </ul>
+  </div>
+  <div class="banner">
+      <div class="container">
+          <img src="img/banner.jpg">
+      </div>
+  </div>
+  <div class="recent">
+      <div class="container">
+          <h3 class="title">Recent Wassup</h3>
+          <div class="box">
+            <img src="img/syre.jpg">
+            <div class="text">
+              <p class="groove">
+              <b>Quote by Theodore Roosevelt:</b><br>It is not the critic who counts; <br>not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. <br>The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; <br>who strives valiantly; <br>who errs, who comes short again and again, because there is no effort without error and shortcoming; <br>but who does actually strive to do the deeds; <br>who knows great enthusiasms, the great devotions; <br>who spends himself in a worthy cause; <br>who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat.
+              </p>
+            </div>
+          </div>
+      </div>   
+  </div>
+  <div class="video">
+        <div class="container">
+              <h3 class="title">Videos & Stuff</h3>
+              <ul class="list">
+                <li>
+                    <video width="384" height="200" controls>
+                      <source src="vid/swim good.mp4" type="video/mp4">
+                    </video>
+                    <p class="italic">Swim Good (Cover)</p>
+                  </li>
+                <li>
+                  <video width="384" height="268.4" controls>
+                    <source src="vid/normal people.mp4" type="video/mp4">
+                  </video>
+                  <p class="italic">Normal People (Cut)</p>
+                </li>
+                <li>
+                  <h2>Reflection</h2>
+                  <p>
+                    Hey guys, I assume all of you have just seen my journal. <br>If not, just click <a href="https://hkdesign.org/how-well-do-you-know-about-um-boxes/" target="_blank" rel="noopener" style="color:blue">here</a>.
+                  </p>
+                </li>
+              </ul>
+        </div>
+  </div>
+  <div class="footer">
+    <h1>Not Available Until: <br>October 10</h1>
+    <p>Make sure you visit me frequently to see some latest updates!</p>
+      <div class="fa-3x">
+        <i class="fa-solid fa-heart fa-beat"></i>
+      </div>      
+  </div>
+</body>
+</html>
